@@ -37,7 +37,8 @@ nav .nav-links {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 15px 35px;
+  column-gap: 40px;
+  row-gap: 15px;
 }
 
 nav a {
