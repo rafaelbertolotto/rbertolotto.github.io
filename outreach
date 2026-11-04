@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Outreach | Rafael Bertolotto Stefanelli</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.7;
+        color: #e8e8e8;
+        background: #1a1a1a;
+      }
+
+      nav {
+        background: #222222;
+        border-bottom: 1px solid #3a3a3a;
+        padding: 15px 30px;
+      }
+
+      nav .nav-container {
+        max-width: 1000px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav .name {
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+
+      nav a {
+        color: #cccccc;
+        text-decoration: none;
+        margin-left: 20px;
+      }
+
+      nav a:hover {
+        color: #ffffff;
+      }
+
+      main {
+        max-width: 1000px;
+        margin: auto;
+        padding: 70px 30px;
+      }
+
+      h1 {
+        color: #ffffff;
+        border-bottom: 2px solid #3a3a3a;
+        padding-bottom: 10px;
+      }
+
+      h2 {
+        color: #ffffff;
+        margin-top: 40px;
+      }
+
+      a {
+        color: #82b1ff;
+      }
+
+      .outreach-item {
+        margin-bottom: 40px;
+      }
+
+      .outreach-photo {
+        max-width: 100%;
+        width: 500px;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 15px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 30px;
+        color: #888888;
+        border-top: 1px solid #3a3a3a;
+        margin-top: 80px;
+      }
+
+      @media (max-width: 700px) {
+        nav .nav-container {
+          flex-direction: column;
+          gap: 10px;
+        }
+
+        nav a {
+          margin: 0 8px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Shared navigation bar -->
+    <div id="navbar"></div>
+
+    <main>
+      <h1>Science Outreach</h1>
+
+      <p>
+        I am passionate about sharing astronomy and science
+        with the broader community. Through outreach activities,
+        public talks, and educational events, I aim to make
+        astrophysics accessible to people of all ages and
+        backgrounds.
+      </p>
+
+      <h2>Outreach Activities</h2>
+
+      <div class="outreach-item">
+        <h3>Activity Title</h3>
+
+        <p>
+          <strong>Location:</strong> Institution or city<br>
+          <strong>Date:</strong> Month, Year
+        </p>
+
+        <p>
+          Description of the outreach activity, including
+          its goals, audience, and your participation.
+        </p>
+
+        <!-- Optional photograph
+        <img
+          src="images/outreach1.jpg"
+          alt="Description of outreach activity"
+          class="outreach-photo"
+        >
+        -->
+      </div>
+
+      <h2>Public Talks and Presentations</h2>
+
+      <div class="outreach-item">
+        <h3>Talk Title</h3>
+
+        <p>
+          <strong>Event:</strong> Event name<br>
+          <strong>Date:</strong> Month, Year
+        </p>
+
+        <p>
+          Brief description of the talk and its audience.
+        </p>
+      </div>
+
+      <h2>Educational Resources</h2>
+
+      <p>
+        Here you can share educational materials,
+        presentations, videos, or other resources
+        related to astronomy and astrophysics.
+      </p>
+    </main>
+
+    <footer>
+      © 2026 Rafael Bertolotto Stefanelli
+    </footer>
+
+    <script src="navbar.js"></script>
+  </body>
+</html>
